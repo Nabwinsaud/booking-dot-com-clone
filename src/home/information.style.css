@@ -1,0 +1,92 @@
+.information-explore {
+  width: 100%;
+  max-width: 82%;
+  margin: 2.5rem auto;
+}
+
+.checked {
+  display: flex;
+  align-items: center;
+}
+
+.checked span {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.checked input {
+  /* transform: scale(1.2); */
+  width: 20px;
+  height: 20px;
+}
+
+/* guide line */
+.guideline {
+  margin-top: 35px;
+  background-color: white;
+  height: 60px;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px -6px rgba(0, 0, 0, 0.3);
+  /* margin: 20px 0 15px 0; */
+}
+
+.guideline-text {
+  font-size: 14px;
+}
+.guideline span {
+  color: rgb(17, 132, 209);
+  cursor: pointer;
+}
+
+.cashback {
+  margin: 20px 0;
+  width: 100%;
+  border: 1px solid lightgray;
+  /* height: 100px; */
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0.5px rgba(0, 0, 0, 0.3);
+}
+
+.cashback-img {
+  width: 150px;
+}
+.cashback-img img {
+  width: 100%;
+  object-fit: cover;
+}
+.cashback-save {
+  margin-left: 15px;
+}
+.cashback-save h4 {
+}
+.cashback-save p {
+  color: #111;
+}
+
+.cashback-save button {
+  border: none;
+  outline: none;
+  background: rgb(11, 113, 230);
+  border-radius: 3px;
+  padding: 12px 9px;
+  margin-top: 16px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.3s;
+  /* letter-spacing: 1px; */
+}
+
+.cashback-save button:hover {
+  background: rgba(62, 135, 202, 0.74);
+}
